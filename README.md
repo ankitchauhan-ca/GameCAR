@@ -1,4 +1,4 @@
-Make Directory 
+## Make Directory 
 styles
 -> globals.css
 
