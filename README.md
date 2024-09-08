@@ -1,3 +1,32 @@
+Make Directory 
+styles
+-> globals.css
+
+utils
+-> supabase.jsx
+
+
+## globals.css
+-> @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+## supabase
+-> import { createClient } from "@supabase/supabase-js";
+const supabaseUrl = " ";
+const supabaseKey =
+  " ";
+const supabase = createClient(supabaseUrl, supabaseKey);
+
+
+
 ## Special Note: You Have to Create Next-js file and then Copy-Paste or Replace with github file.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
